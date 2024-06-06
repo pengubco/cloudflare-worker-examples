@@ -1,9 +1,5 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "square-mud-fa69"
+name = "calculator-yellow-snow-a48d"
 main = "src/index.ts"
 compatibility_date = "2024-06-03"
 compatibility_flags = ["nodejs_compat"]
-
-services = [
-	{ binding = "ADDER", service = "adder-yellow-snow-a48d" },
-]

@@ -1,0 +1,9 @@
+name = "caller-wandering-king-5b5c"
+main="./src/index.ts"
+compatibility_date = "2024-06-03"
+compatibility_flags = ["nodejs_compat"]
+
+services = [
+	{ binding = "CALCULATOR", service = "calculator-yellow-snow-a48d" },
+]
+
