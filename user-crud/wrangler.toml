@@ -1,0 +1,13 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "do-post-little-voice-7288"
+main = "src/index.ts"
+compatibility_date = "2024-06-05"
+
+[[durable_objects.bindings]]
+name = "ACCOUNTS_DO"
+class_name = "Account"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Account"]
+
