@@ -1,0 +1,5 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "calculator-red-snow-a48d"
+main = "src/index.ts"
+compatibility_date = "2024-06-03"
+compatibility_flags = ["nodejs_compat"]
